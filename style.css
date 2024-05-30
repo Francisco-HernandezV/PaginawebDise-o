@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    background-color: #045d04;
+}
+
+.logo img {
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px;
+
+ }
+
+ .search-bar {
+    display: flex;
+    align-items: center;
+    width: 400px; 
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px 20px; 
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 50px 0 0 50px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e7db06fc;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    border-radius: 0 50px 50px 0;
+}
+
+.search-bar button:hover {
+    background-color: #99e00c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.search-bar input::placeholder {
+    color: #aaa;
+    font-style: italic; 
+}
+
+nav .menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url('path-to-banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+
+.animal-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.conejo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+.capi{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+.leon {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+.avestruz {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow:hidden;
+    width: 250px;
+    margin: 10px;
+    text-align:center;
+    
+}
+.serpiente {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow:hidden;
+    width: 250px;
+    margin: 10px;
+    text-align:center;
+    
+}
+.puma{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow:hidden;
+    width: 250px;
+    margin: 10px;
+    text-align:center;
+    
+}
+.chacalaca{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow:hidden;
+    width: 250px;
+    margin: 10px;
+    text-align:center;
+    
+}
+.aguila{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow:hidden;
+    width: 250px;
+    margin: 10px;
+    text-align:center;
+    
+}
+
+.animal-info {
+    padding: 10px;
+}
+
+.animal-info h2 {
+    margin: 10px 0;
+}
+
+.animal-info button {
+    padding: 5px 10px;
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
